@@ -1,0 +1,36 @@
+div.sim_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: calc(100vh - 160px);
+}
+
+div.sim_settings {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+div.sim_output {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: 30px;
+  row-gap: 100px;
+}
